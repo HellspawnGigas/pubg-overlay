@@ -51,7 +51,7 @@
   <div id="standings"></div>
 
   <script>
-    const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT3NBgua5uR2TCoNh7Qbi9WKzvbwzaaEnuhwnB_7W1ufM0izdK5reT5mHluTic4nloKugATEn6D5Njh/pub?gid=0&single=true&output=csv';
+    const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT3NBgua5uR2TCoNh7Qbi9WKzvbwzaaEnuhwnB_7W1ufM0izdK5reT5mHluTic4nloKugATEn6D5Njh/pub?output=csv';
 
     async function loadStandings() {
       const response = await fetch(SHEET_CSV_URL);
@@ -80,3 +80,4 @@
   </script>
 </body>
 </html>
+
